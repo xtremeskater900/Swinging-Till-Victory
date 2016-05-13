@@ -40,7 +40,7 @@ body {
 /*Stuff below governs the Explore screen*/
 
 #exploreBody {
-	background-image: url("Background/gamemap.jpg");
+	background-image: url("background/gamemap.jpg");
 	background-position: bottom center;
 
 }
