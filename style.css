@@ -42,7 +42,6 @@ body {
 #exploreBody {
 	background-image: url("background/gamemap.jpg");
     background-size: 1000px;
-    background-repeat: no-repeat;
 	background-position: bottom center;
 
 }
