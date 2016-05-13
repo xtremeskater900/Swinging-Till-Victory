@@ -52,5 +52,8 @@ body {
 
 #follower{
     position: absolute;
-    float: left;
+    float: center;
+    width:100px;
+    height:100px;
+
 }
