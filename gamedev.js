@@ -1,5 +1,17 @@
 $( document ).ready(function() {
 
-//Your jquery goes here
+
+
+
+
+$(document).bind('mousemove', function(e){
+    $('#follower').css({
+       left:  e.pageX + 20,
+       top:   e.pageY
+    });
+});
+
+
+
 
 });

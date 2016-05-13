@@ -46,3 +46,11 @@ body {
 	background-position: top center;
     background-color: black;
 }
+
+
+
+
+#follower{
+    position: absolute;
+    float: left;
+}
