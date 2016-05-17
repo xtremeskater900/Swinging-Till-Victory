@@ -52,7 +52,13 @@ body {
 
 #follower{
     position: absolute;
+<<<<<<< HEAD
     width:175px;
     height:175px;
+=======
+    float:right;
+    width:500px;
+    height:500px;
+>>>>>>> origin/master
 
 }
