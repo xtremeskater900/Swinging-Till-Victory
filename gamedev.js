@@ -2,7 +2,10 @@
 $( document ).ready(function() {
 
 
-
+void mouseMoved(){
+   nX = mouseX;
+   nY = mouseY;  
+ }
 
 
 $(document).bind('mousemove', function(e){
