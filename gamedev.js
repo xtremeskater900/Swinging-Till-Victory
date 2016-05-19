@@ -1,3 +1,8 @@
+$("#exploreBody").hide();
+
+
+
+
 var scripts=document.getElementsByTagName("script");
 for(var i=0;i<scripts.length;i++) {
     if(scripts[i].type=="application/processing"){
