@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $("#exploreBody").hide();
 
 
@@ -18,3 +19,22 @@ for(var i=0;i<scripts.length;i++) {
         }
     }
 }
+=======
+$( document ).ready(function() {
+
+
+
+
+
+$(document).bind('mousemove', function(e){
+    $('#follower').css({
+       left:  e.pageX - 30,
+       top:   e.pageY
+    });
+});
+
+
+
+
+});
+>>>>>>> parent of 6f7fbd3... Trying mouse follow with delay
