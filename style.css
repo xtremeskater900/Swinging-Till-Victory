@@ -40,12 +40,12 @@ body {
 /*Stuff below governs the Explore screen*/
 
 #exploreBody {
-	/*background-image: url("background/gamemap.jpg");
+	background-image: url("background/gamemap.jpg");
     background-size: 1460px;
     background-repeat: no-repeat;
 	background-position: top center;
     background-color: black;
-    width:1460px; */
+    width:1460px;
 }
 
 
