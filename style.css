@@ -57,6 +57,7 @@ body {
     height:20px;
     margin-left:600px;
     margin-top:350px;
+    background-color: red;
 
 }
 
@@ -65,6 +66,4 @@ span.crosshair {
     cursor: crosshair;
 }
 
-#contain {
-    width:1460px;
-}
+
