@@ -3,7 +3,7 @@ $( document ).ready(function() {
 
 
 
-$( "#follower" ).keydown({ containment: "#exploreBody", scroll: false });
+$( "#follower" ).keydown({ containment: "#contain", scroll: false });
 
 $(document).keydown(function(e) {
     switch (e.which) {
