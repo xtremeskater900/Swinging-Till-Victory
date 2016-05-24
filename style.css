@@ -60,10 +60,12 @@ body {
 
 }
 
-#tree1{
-    background:red;
-}
-
 span.crosshair {
     cursor: crosshair;
+}
+
+#map {
+    background-color: transparent;
+    height: 1000px;
+    width: 1000px;
 }
