@@ -34,7 +34,3 @@ $(document).keydown(function(e) {
 
 });
 
- $(function() {
-    $( "#follower" ).draggable({ containment: "#map" });
-  });
-  </script>
