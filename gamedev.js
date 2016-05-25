@@ -33,8 +33,3 @@ $(document).keydown(function(e) {
 
 
 });
-
- $(function() {
-    $( "#follower" )({ containment: "#map" });
-  });
-  </script>
