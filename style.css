@@ -72,3 +72,7 @@ span.crosshair {
     margin-left: 160px;
     margin-top: -10px;
 }
+
+.health{
+    background-color:crimson;
+}
