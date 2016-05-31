@@ -7,6 +7,12 @@ body {
 
 }
 
+#info{
+    background:white;
+    width:;
+    height:;
+}
+
 /*Stuff below governs the start screen*/
 
 .titleContent {
@@ -37,7 +43,7 @@ body {
 
 #gameinfo{
     background:white;
-    
+
 
 }
 
