@@ -100,6 +100,33 @@ body {
     top: 173px;
 }
 
+.health {
+  position: absolute;
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  top: 75px;
+  border:solid black 5px;
+}
+
+#health1 {
+  position: absolute;
+  left:20px;
+}
+
+#health2 {
+  position: absolute;
+  left:75px;
+}
+
+#health3 {
+  position: absolute;
+  left:130px;
+}
+
+
+
+
 span.crosshair {
     cursor: crosshair;
 }
