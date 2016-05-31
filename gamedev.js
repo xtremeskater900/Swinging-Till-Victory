@@ -58,7 +58,7 @@ $(document).keydown(function(e) {
     //function that makes the magic happen! 
 
     //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.chicken'), function() {
+    $.each($('.enemies'), function() {
       if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
         
         score = score - 1;
@@ -70,7 +70,7 @@ $(document).keydown(function(e) {
     //function that makes the magic happen! 
     
     //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.chicken'), function() {
+    $.each($('.enemies'), function() {
       if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
         
         score = score - 1;
@@ -82,7 +82,7 @@ $(document).keydown(function(e) {
     //function that makes the magic happen! 
 
     //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.chicken'), function() {
+    $.each($('.enemies'), function() {
       if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
         
           score = score - 1;

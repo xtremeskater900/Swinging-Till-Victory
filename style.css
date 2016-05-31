@@ -82,9 +82,12 @@ body {
 
 }
 
-.chicken{
-    width:30px;
-    height:30px;
+#chicken{
+    background-image:url("characters/chicken1.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:60px;
+    height:40px;
     position: absolute;
     top: 235px;
     left: 825px;
