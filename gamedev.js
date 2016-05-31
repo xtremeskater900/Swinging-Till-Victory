@@ -55,39 +55,36 @@ $(document).keydown(function(e) {
   }
 
   window.setInterval(function() {
-    //function that makes the magic happen! Below, jQuery prints the word "FALSE" into #results
-    $('#result').text('False');
+    //function that makes the magic happen! 
+
     //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
     $.each($('.chicken'), function() {
       if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
-        $('#result').text('True');
-        //if #follower hits .chicken, then #results will say "TRUE"
+        
         score = score - 1;
         
         if (score = 3) {
           $("#health3").hide();
           
           window.setInterval(function() {
-    //function that makes the magic happen! Below, jQuery prints the word "FALSE" into #results
-    $('#result').text('False');
+    //function that makes the magic happen! 
+    
     //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
     $.each($('.chicken'), function() {
       if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
-        $('#result').text('True');
-        //if #follower hits .chicken, then #results will say "TRUE"
+        
         score = score - 1;
         
         if (score = 2) {
           $("#health2").hide();
           
           window.setInterval(function() {
-    //function that makes the magic happen! Below, jQuery prints the word "FALSE" into #results
-    $('#result').text('False');
+    //function that makes the magic happen! 
+
     //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
     $.each($('.chicken'), function() {
       if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
-        $('#result').text('True');
-        //if #follower hits .chicken, then #results will say "TRUE"
+        
           score = score - 1;
         
          if (score = 1) {
