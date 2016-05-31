@@ -6,7 +6,7 @@ $( document ).ready(function() {
 
   $("#gameend").hide();
   //tell JavaScript what div is the sprite - use the div id
-  var myCar = $("#myCar");
+  var character = $("#follower");
   var score = 4
 
 
@@ -58,10 +58,10 @@ $(document).keydown(function(e) {
     //function that makes the magic happen! Below, jQuery prints the word "FALSE" into #results
     $('#result').text('False');
     //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.otherCar'), function() {
-      if (collision($('#myCar'), $(this))) { //another if statement. If #myCar DOES hit something, the following will happen:
+    $.each($('.chicken'), function() {
+      if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
         $('#result').text('True');
-        //if #myCar hits .othercar, then #results will say "TRUE"
+        //if #follower hits .chicken, then #results will say "TRUE"
         score = score - 1;
         
         if (score = 3) {
@@ -71,10 +71,10 @@ $(document).keydown(function(e) {
     //function that makes the magic happen! Below, jQuery prints the word "FALSE" into #results
     $('#result').text('False');
     //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.otherCar'), function() {
-      if (collision($('#myCar'), $(this))) { //another if statement. If #myCar DOES hit something, the following will happen:
+    $.each($('.chicken'), function() {
+      if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
         $('#result').text('True');
-        //if #myCar hits .othercar, then #results will say "TRUE"
+        //if #follower hits .chicken, then #results will say "TRUE"
         score = score - 1;
         
         if (score = 2) {
@@ -84,10 +84,10 @@ $(document).keydown(function(e) {
     //function that makes the magic happen! Below, jQuery prints the word "FALSE" into #results
     $('#result').text('False');
     //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.otherCar'), function() {
-      if (collision($('#myCar'), $(this))) { //another if statement. If #myCar DOES hit something, the following will happen:
+    $.each($('.chicken'), function() {
+      if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
         $('#result').text('True');
-        //if #myCar hits .othercar, then #results will say "TRUE"
+        //if #follower hits .chicken, then #results will say "TRUE"
           score = score - 1;
         
          if (score = 1) {
