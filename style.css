@@ -64,8 +64,41 @@ body {
     width:20px;
     height:20px;
 }
+#tree {
+    background-color: rgba(255,255,255,0.5);
+    position:absolute;
+    height: 113px;
+    width: 160px;
+    left: 422px;
+    top: 405px;
+}
 
+#tree1 {
+    background-color: rgba(255,255,255,0.5);
+    position:absolute;
+    height: 78px;
+    width: 50px;
+    left: 475px;
+    top: 519px;
+}
 
+#hedge {
+    background-color: rgba(255,255,255,0.5);
+    position:absolute;
+    height: 105px;
+    width: 110px;
+    left: 848px;
+    top: 578px;
+}
+
+#stump {
+    background-color: rgba(255,255,255,0.5);
+    position:absolute;
+    height: 85px;
+    width: 40px;
+    left: 371px;
+    top: 173px;
+}
 
 span.crosshair {
     cursor: crosshair;
