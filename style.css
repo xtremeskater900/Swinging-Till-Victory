@@ -60,6 +60,13 @@ body {
 
 }
 
+.chicken{
+    width:20px;
+    height:20px;
+}
+
+
+
 span.crosshair {
     cursor: crosshair;
 }
