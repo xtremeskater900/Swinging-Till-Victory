@@ -28,9 +28,7 @@ body {
 }
 
 #infotitle{
-    font-size: 8em;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
+    color:#000000;
 }
 
 .button {
