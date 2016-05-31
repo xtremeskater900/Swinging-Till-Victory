@@ -41,6 +41,12 @@ body {
     color: #abc;
   }
 
+#play{
+    position:absolute;
+    left:300px;
+    top:400px;
+}
+
 #gameinfo{
     background:white;
 
