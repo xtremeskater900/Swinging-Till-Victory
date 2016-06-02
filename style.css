@@ -198,6 +198,16 @@ span.crosshair {
     margin-top: -10px;
 }*/
 
+#gameover {
+    background-image: url("http://vignette4.wikia.nocookie.net/metroid/images/a/ae/MOM_Game_Over_Continue_screen.png/revision/latest?cb=20130613165734");
+    background-size: 1500px
+}
 
-
-
+#restart {
+  border: 5px solid #383838;
+    color: #383838;
+    padding: 20px 350px;
+    font-size: 5em;
+    text-decoration: none;
+    box-shadow: 15px 15px 80px #555;
+}
