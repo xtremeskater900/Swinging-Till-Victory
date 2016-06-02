@@ -82,7 +82,7 @@ body {
 
 }
 
-#chicken{
+.enemies{
     background-image:url("characters/chicken1.gif");
     background-repeat: no-repeat;
     background-position: center center;

@@ -105,13 +105,7 @@ $(document).keydown(function(e) {
       }
     });
   }, 200);
-          
-          
-          
-          
-          
-          
-        }
+         }
           
           
 
@@ -121,9 +115,7 @@ $(document).keydown(function(e) {
       }
     });
   }, 200);
-          
-        
-        }
+          }
           
           
 
@@ -136,5 +128,5 @@ $(document).keydown(function(e) {
   
   
 
-});
+});// end of doc ready function
 
