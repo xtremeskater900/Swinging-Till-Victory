@@ -12,22 +12,22 @@ $( document ).ready(function() {
 
 $(document).keydown(function(e) {
     switch (e.which) {
-    case 37:
+    case 65:
         $("#follower").stop().animate({
             left: '-=75'
         }); //left arrow key
         break;
-    case 38:
+    case 87:
         $("#follower").stop().animate({
             top: '-=75'
         }); //up arrow key
         break;
-    case 39:
+    case 68:
         $("#follower").stop().animate({
             left: '+=75'
         }); //right arrow key
         break;
-    case 40:
+    case 83:
         $("#follower").stop().animate({
             top: '+=75'
         }); //bottom arrow key
