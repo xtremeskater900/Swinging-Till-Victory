@@ -211,3 +211,16 @@ span.crosshair {
     text-decoration: none;
     box-shadow: 15px 15px 80px #555;
 }
+
+#giveup {
+  border: 5px solid #383838;
+    color: #383838;
+    padding: 20px 350px;
+    font-size: 5em;
+    text-decoration: none;
+    box-shadow: 15px 15px 80px #555;
+}
+#giveupbody {
+    background-image: url("http://www.muylinux.com/wp-content/uploads/2014/01/mljuegos0.png");
+    background-size: 150px
+}
