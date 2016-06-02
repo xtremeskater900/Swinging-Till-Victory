@@ -89,9 +89,8 @@ $(document).keydown(function(e) {
         
          if (score = 1) {
           $("#health1").hide();
-		  $("#follower").hide();
-		  $("#map").hide();
-		  
+          
+          
           
           
         }
@@ -138,3 +137,4 @@ $(document).keydown(function(e) {
   
 
 });
+
