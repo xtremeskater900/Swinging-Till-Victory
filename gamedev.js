@@ -186,69 +186,7 @@ $(document).keydown(function(e) {
       }
     });
   }, 1000);
-          
-          
-        }
-        
-      
-          
-          
 
-        //all the actions that happen during a collision go here
-        
-
-      }
-    });
-  }, 1000);
-          
-          
-        }
-        
-      
-          
-          
-
-        //all the actions that happen during a collision go here
-        
-
-      }
-    });
-  }, 1000);
-          
-          
-        }
-        
-      
-          
-          
-
-        //all the actions that happen during a collision go here
-        
-
-      }
-    });
-  }, 1000);
-
-         }
-          
-          
-
-        //all the actions that happen during a collision go here
-        
-
-      }
-    });
-  }, 1000);
-          }
-          
-          
-
-        //all the actions that happen during a collision go here
-        
-
-      }
-    });
-  }, 1000); //this is how often it checks for a collision
   
   
 
