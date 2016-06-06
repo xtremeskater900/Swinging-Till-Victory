@@ -116,6 +116,8 @@ $(document).keydown(function(e) {
         
          if (score = 1) {
           $("#health1").hide();
+          window.location.href="gameover.html";
+
           
           
           
