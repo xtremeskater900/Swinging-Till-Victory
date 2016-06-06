@@ -7,7 +7,7 @@ $( document ).ready(function() {
   $("#gameend").hide();
   //tell JavaScript what div is the sprite - use the div id
   var character = $("#follower");
-  var score = 11
+  var score = 6
 
 
 var chicken1top;
@@ -105,8 +105,8 @@ $(document).keydown(function(e) {
         
         score = score - 1;
         
-        if (score = 10) {
-          $("#health10").hide();
+        if (score = 5) {
+          $("#health5").hide();
           
           window.setInterval(function() {
     //function that makes the magic happen! 
@@ -117,69 +117,8 @@ $(document).keydown(function(e) {
         
         score = score - 1;
         
-        if (score = 9) {
-          $("#health9").hide();
-          
-          window.setInterval(function() {
-    //function that makes the magic happen! 
-
-    //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.enemies'), function() {
-      if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
-        
-          score = score - 1;
-        
-         if (score = 8) {
-          $("#health8").hide();
-          
-          window.setInterval(function() {
-    //function that makes the magic happen! 
-
-    //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.enemies'), function() {
-      if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
-        
-          score = score - 1;
-        
-         if (score = 7) {
-          $("#health7").hide();
-          
-          window.setInterval(function() {
-    //function that makes the magic happen! 
-
-    //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.enemies'), function() {
-      if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
-        
-          score = score - 1;
-        
-         if (score = 6) {
-          $("#health6").hide();
-          
-          window.setInterval(function() {
-    //function that makes the magic happen! 
-
-    //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.enemies'), function() {
-      if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
-        
-          score = score - 1;
-        
-         if (score = 5) {
-          $("#health5").hide();
-          
-          window.setInterval(function() {
-    //function that makes the magic happen! 
-
-    //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.enemies'), function() {
-      if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
-        
-          score = score - 1;
-        
-         if (score = 4) {
+        if (score = 4) {
           $("#health4").hide();
-          
           
           window.setInterval(function() {
     //function that makes the magic happen! 
@@ -204,7 +143,6 @@ $(document).keydown(function(e) {
         
          if (score = 2) {
           $("#health2").hide();
-          
           
           window.setInterval(function() {
     //function that makes the magic happen! 
@@ -232,76 +170,7 @@ $(document).keydown(function(e) {
 
       }
     });
-  }, 200);
-          
-        }
-        
-      
-          
-          
-
-        //all the actions that happen during a collision go here
-        
-
-      }
-    });
-  }, 200);
-          
-          
-        }
-        
-      
-          
-          
-
-        //all the actions that happen during a collision go here
-        
-
-      }
-    });
   }, 1000);
-          
-        }
-        
-      
-          
-          
-
-        //all the actions that happen during a collision go here
-        
-
-      }
-    });
-  }, 200);
-          
-          
-        }
-        
-      
-          
-          
-
-        //all the actions that happen during a collision go here
-        
-
-      }
-    });
-  }, 200);
-          
-          
-        }
-        
-      
-          
-          
-
-        //all the actions that happen during a collision go here
-        
-
-      }
-    });
-  }, 200);
-          
           
         }
         
@@ -329,8 +198,10 @@ $(document).keydown(function(e) {
       }
     });
   }, 1000);
-
-         }
+          
+        }
+        
+      
           
           
 
@@ -340,7 +211,11 @@ $(document).keydown(function(e) {
       }
     });
   }, 1000);
-          }
+          
+          
+        }
+        
+      
           
           
 
@@ -349,9 +224,13 @@ $(document).keydown(function(e) {
 
       }
     });
-  }, 1000); //this is how often it checks for a collision
-  
-  
+  }, 1000);
+          
+          
+        }
+        
+      
+          
+          
 
-});// end of doc ready function
-
+   
