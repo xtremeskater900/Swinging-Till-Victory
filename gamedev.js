@@ -15,22 +15,22 @@ $(document).keydown(function(e) {
     case 65:
         $("#follower").stop().animate({
             left: '-=75'
-        }); //left arrow key
+        }); //D key
         break;
     case 87:
         $("#follower").stop().animate({
             top: '-=75'
-        }); //up arrow key
+        }); //W key
         break;
     case 68:
         $("#follower").stop().animate({
             left: '+=75'
-        }); //right arrow key
+        }); //A key
         break;
     case 83:
         $("#follower").stop().animate({
             top: '+=75'
-        }); //bottom arrow key
+        }); //S key
         break;
     }
 })
