@@ -7,7 +7,7 @@ $( document ).ready(function() {
   $("#gameend").hide();
   //tell JavaScript what div is the sprite - use the div id
   var character = $("#follower");
-  var score = 4
+  var score = 6
 
 
 $(document).keydown(function(e) {
@@ -63,8 +63,8 @@ $(document).keydown(function(e) {
         
         score = score - 1;
         
-        if (score = 3) {
-          $("#health3").hide();
+        if (score = 5) {
+          $("#health5").hide();
           
           window.setInterval(function() {
     //function that makes the magic happen! 
@@ -75,7 +75,31 @@ $(document).keydown(function(e) {
         
         score = score - 1;
         
-        if (score = 2) {
+        if (score = 4) {
+          $("#health4").hide();
+          
+          window.setInterval(function() {
+    //function that makes the magic happen! 
+
+    //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
+    $.each($('.enemies'), function() {
+      if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
+        
+          score = score - 1;
+        
+         if (score = 3) {
+          $("#health3").hide();
+          
+          window.setInterval(function() {
+    //function that makes the magic happen! 
+
+    //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
+    $.each($('.enemies'), function() {
+      if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
+        
+          score = score - 1;
+        
+         if (score = 2) {
           $("#health2").hide();
           
           window.setInterval(function() {
@@ -105,6 +129,35 @@ $(document).keydown(function(e) {
       }
     });
   }, 200);
+          
+          
+        }
+        
+      
+          
+          
+
+        //all the actions that happen during a collision go here
+        
+
+      }
+    });
+  }, 200);
+          
+          
+        }
+        
+      
+          
+          
+
+        //all the actions that happen during a collision go here
+        
+
+      }
+    });
+  }, 200);
+
          }
           
           
