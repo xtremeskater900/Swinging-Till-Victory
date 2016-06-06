@@ -232,7 +232,7 @@ $(document).keydown(function(e) {
 
       }
     });
-  }, 1000);
+  }, 200);
           
         }
         
@@ -245,34 +245,7 @@ $(document).keydown(function(e) {
 
       }
     });
-  }, 1000);
-          
-          
-        }
-        
-      
-          
-          
-
-        //all the actions that happen during a collision go here
-        
-
-      }
-    });
-  }, 1000);
-          
-        }
-        
-      
-          
-          
-
-        //all the actions that happen during a collision go here
-        
-
-      }
-    });
-  }, 1000);
+  }, 200);
           
           
         }
@@ -288,6 +261,19 @@ $(document).keydown(function(e) {
     });
   }, 1000);
           
+        }
+        
+      
+          
+          
+
+        //all the actions that happen during a collision go here
+        
+
+      }
+    });
+  }, 200);
+          
           
         }
         
@@ -300,7 +286,21 @@ $(document).keydown(function(e) {
 
       }
     });
-  }, 1000);
+  }, 200);
+          
+          
+        }
+        
+      
+          
+          
+
+        //all the actions that happen during a collision go here
+        
+
+      }
+    });
+  }, 200);
           
           
         }
