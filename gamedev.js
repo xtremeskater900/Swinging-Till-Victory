@@ -10,48 +10,6 @@ $( document ).ready(function() {
   var score = 6
 
 
-var chicken1top;
-var chicken2top;
-var chicken3top;
-var chicken1left;
-var chicken2left;
-var chicken3left;
-
-
-function generate(){
-	c1top = generator;
-	$("#chicken1").css({"top": generator});
-	console.log("chicken1: "+generator);
-	generator = Math.floor((Math.random()*304)+16); 
-	c1left = generator;
-	$("#chicken1").css({"left": generator});
-	console.log("chicken1 left: "+generator);
-	generator = Math.floor((Math.random()*464)+16); 	
-
-	c2top = generator;
-	$("#chicken2").css({"top": generator});
-	console.log("chicken2 top: "+generator);
-	generator = Math.floor((Math.random()*304)+16); 
-	c2left = generator;
-	$("#chicken2").css({"left": generator});
-	console.log("chicken2 left: "+generator);
-	generator = Math.floor((Math.random()*464)+16); 
-
-	c3top = generator;
-	$("#chicken3").css({"top": generator});
-	console.log("chicken3 top: "+generator);
-	generator = Math.floor((Math.random()*304)+16); 
-	c3left = generator; 
-	$("#chicken3").css({"left": generator});
-	console.log("chicken3 left: "+generator);
-	generator = Math.floor((Math.random()*464)+16); 
-}
-
-
-
-
-
-
 $(document).keydown(function(e) {
     switch (e.which) {
     case 65:
