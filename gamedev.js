@@ -128,7 +128,7 @@ $(document).keydown(function(e) {
 
       }
     });
-  }, 200);
+  }, 1000);
           
           
         }
@@ -142,7 +142,7 @@ $(document).keydown(function(e) {
 
       }
     });
-  }, 200);
+  }, 1000);
           
           
         }
@@ -156,7 +156,7 @@ $(document).keydown(function(e) {
 
       }
     });
-  }, 200);
+  }, 1000);
 
          }
           
@@ -167,7 +167,7 @@ $(document).keydown(function(e) {
 
       }
     });
-  }, 200);
+  }, 1000);
           }
           
           
@@ -177,7 +177,7 @@ $(document).keydown(function(e) {
 
       }
     });
-  }, 200); //this is how often it checks for a collision
+  }, 1000); //this is how often it checks for a collision
   
   
 
