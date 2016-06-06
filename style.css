@@ -152,6 +152,40 @@ body {
   left:130px;
 }
 
+#health4 {
+  position: absolute;
+  left:185px;
+}
+
+#health5 {
+  position: absolute;
+  left:240px;
+}
+
+#health6 {
+  position: absolute;
+  left:295px;
+}
+
+#health7 {
+  position: absolute;
+  left:350px;
+}
+
+#health8 {
+  position: absolute;
+  left:405px;
+}
+
+#health9 {
+  position: absolute;
+  left:460px;
+}
+
+#health10 {
+  position: absolute;
+  left:515px;
+}
 #wall-right {
     background-color: rgba(0,255,0,0.5);
     position:absolute;
