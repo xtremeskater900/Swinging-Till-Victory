@@ -54,66 +54,7 @@ $(document).keydown(function(e) {
     return true;
   }
 
-  window.setInterval(function() {
-    //function that makes the magic happen! 
-
-    //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.enemies'), function() {
-      if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
-        
-        score = score - 1;
-        
-        if (score = 10) {
-          $("#health10").hide();
-          
-          window.setInterval(function() {
-    //function that makes the magic happen! 
-    
-    //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.enemies'), function() {
-      if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
-        
-        score = score - 1;
-        
-        if (score = 9) {
-          $("#health9").hide();
-          
-          window.setInterval(function() {
-    //function that makes the magic happen! 
-
-    //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.enemies'), function() {
-      if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
-        
-          score = score - 1;
-        
-         if (score = 8) {
-          $("#health8").hide();
-          
-          window.setInterval(function() {
-    //function that makes the magic happen! 
-
-    //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.enemies'), function() {
-      if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
-        
-          score = score - 1;
-        
-         if (score = 7) {
-          $("#health7").hide();
-          
-          window.setInterval(function() {
-    //function that makes the magic happen! 
-
-    //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.enemies'), function() {
-      if (collision($('#follower'), $(this))) { //another if statement. If #follower DOES hit something, the following will happen:
-        
-          score = score - 1;
-        
-         if (score = 6) {
-          $("#health6").hide();
-          
+  
           window.setInterval(function() {
     //function that makes the magic happen! 
 
@@ -190,7 +131,7 @@ $(document).keydown(function(e) {
 
       }
     });
-  }, 200);
+  }, 1000);
           
         }
         
@@ -203,7 +144,7 @@ $(document).keydown(function(e) {
 
       }
     });
-  }, 200);
+  }, 1000);
           
           
         }
@@ -230,7 +171,7 @@ $(document).keydown(function(e) {
 
       }
     });
-  }, 200);
+  }, 1000);
           
           
         }
@@ -244,7 +185,7 @@ $(document).keydown(function(e) {
 
       }
     });
-  }, 200);
+  }, 1000);
           
           
         }
@@ -258,7 +199,7 @@ $(document).keydown(function(e) {
 
       }
     });
-  }, 200);
+  }, 1000);
           
           
         }
