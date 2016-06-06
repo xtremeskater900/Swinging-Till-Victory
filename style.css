@@ -162,61 +162,8 @@ body {
   left:240px;
 }
 
-#health6 {
-  position: absolute;
-  left:295px;
-}
 
-#health7 {
-  position: absolute;
-  left:350px;
-}
 
-#health8 {
-  position: absolute;
-  left:405px;
-}
-
-#health9 {
-  position: absolute;
-  left:460px;
-}
-
-#health10 {
-  position: absolute;
-  left:515px;
-}
-#wall-right {
-    background-color: rgba(0,255,0,0.5);
-    position:absolute;
-    height: 812px;
-    width: 100px;
-}
-#wall-left {
-    background-color: rgba(0,255,0,0.5);
-    position:absolute;
-    height: 812px;
-    width: 250px;
-    right: 50px;
-}
-
-#wall-top {
-    background-color: rgba(0,255,0,0.5);
-    position:absolute;
-    height: 8px;
-    width: 1561px;
-    right: 50px;
-    top: 0px;
-}
-
-#wall-bottom {
-    background-color: rgba(0,255,0,0.5);
-    position:absolute;
-    height: 50px;
-    width: 1561px;
-    right: 50px;
-    top: 820px;
-}
 
 
 span.crosshair {
