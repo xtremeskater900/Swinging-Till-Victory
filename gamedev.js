@@ -2,6 +2,8 @@
 $( document ).ready(function() {
 
     animateDiv();
+    animateDiv2();
+    animateDiv3();
     
 
 
@@ -247,7 +249,7 @@ function calcSpeed(prev, next) {
 
 
 
-function animateDiv(){
+function animateDiv2(){
     var newq = makeNewPosition();
     var oldq = $('#chicken2').offset();
     var speed = calcSpeed([oldq.top, oldq.left], newq);
@@ -275,7 +277,7 @@ function calcSpeed(prev, next) {
 
 
 
-function animateDiv(){
+function animateDiv3(){
     var newq = makeNewPosition();
     var oldq = $('#chicken3').offset();
     var speed = calcSpeed([oldq.top, oldq.left], newq);
