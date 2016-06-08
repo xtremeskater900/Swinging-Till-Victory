@@ -89,9 +89,23 @@ body {
     width:60px;
     height:40px;
     position: absolute;
+}
+
+#chicken1{
     top: 235px;
     left: 825px;
 }
+
+#chicken2{
+    top: 20px;
+    left: 465px;
+}
+
+#chicken3{
+    top: 200px;
+    left: 45px;
+}
+
 #tree {
     background-color: rgba(255,255,255,0.0);
     position:absolute;
