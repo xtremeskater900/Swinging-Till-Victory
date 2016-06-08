@@ -220,10 +220,10 @@ function makeNewPosition(){
 
 function animateDiv(){
     var newq = makeNewPosition();
-    var oldq = $('.enemies').offset();
+    var oldq = $('#chicken1').offset();
     var speed = calcSpeed([oldq.top, oldq.left], newq);
     
-    $('.enemies').animate({ top: newq[0], left: newq[1] }, speed, function(){
+    $('#chicken1').animate({ top: newq[0], left: newq[1] }, speed, function(){
       animateDiv();        
     });
     
@@ -244,6 +244,62 @@ function calcSpeed(prev, next) {
 
 }
 
+
+
+
+function animateDiv(){
+    var newq = makeNewPosition();
+    var oldq = $('#chicken2').offset();
+    var speed = calcSpeed([oldq.top, oldq.left], newq);
+    
+    $('#chicken2').animate({ top: newq[0], left: newq[1] }, speed, function(){
+      animateDiv();        
+    });
+    
+};
+
+function calcSpeed(prev, next) {
+    
+    var x = Math.abs(prev[1] - next[1]);
+    var y = Math.abs(prev[0] - next[0]);
+    
+    var greatest = x > y ? x : y;
+    
+    var speedModifier = 0.1;
+
+    var speed = Math.ceil(greatest/speedModifier);
+
+    return speed;
+
+}
+
+
+
+function animateDiv(){
+    var newq = makeNewPosition();
+    var oldq = $('#chicken3').offset();
+    var speed = calcSpeed([oldq.top, oldq.left], newq);
+    
+    $('#chicken3').animate({ top: newq[0], left: newq[1] }, speed, function(){
+      animateDiv();        
+    });
+    
+};
+
+function calcSpeed(prev, next) {
+    
+    var x = Math.abs(prev[1] - next[1]);
+    var y = Math.abs(prev[0] - next[0]);
+    
+    var greatest = x > y ? x : y;
+    
+    var speedModifier = 0.1;
+
+    var speed = Math.ceil(greatest/speedModifier);
+
+    return speed;
+
+}
 
 
 
