@@ -93,7 +93,7 @@ body {
     left: 825px;
 }
 #tree {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.0);
     position:absolute;
     height: 113px;
     width: 160px;
@@ -102,7 +102,7 @@ body {
 }
 
 #tree1 {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.0);
     position:absolute;
     height: 78px;
     width: 50px;
@@ -111,7 +111,7 @@ body {
 }
 
 #hedge {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.0);
     position:absolute;
     height: 105px;
     width: 110px;
@@ -120,7 +120,7 @@ body {
 }
 
 #stump {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.0);
     position:absolute;
     height: 85px;
     width: 40px;

@@ -1,6 +1,9 @@
 
 $( document ).ready(function() {
 
+    animateDiv();
+    
+
 
 
 
@@ -189,6 +192,19 @@ $(document).keydown(function(e) {
     });
   }, 1000);
 
+
+
+  
+  
+
+});// end of doc ready function
+
+
+
+
+
+
+
 function makeNewPosition(){
     
     // Get viewport dimensions (remove the dimension of the div)
@@ -204,14 +220,42 @@ function makeNewPosition(){
 
 function animateDiv(){
     var newq = makeNewPosition();
-    $('.enemies').animate({ top: newq[0], left: newq[1] }, function(){
+    var oldq = $('.enemies').offset();
+    var speed = calcSpeed([oldq.top, oldq.left], newq);
+    
+    $('.enemies').animate({ top: newq[0], left: newq[1] }, speed, function(){
       animateDiv();        
     });
     
 };
 
-  
-  
+function calcSpeed(prev, next) {
+    
+    var x = Math.abs(prev[1] - next[1]);
+    var y = Math.abs(prev[0] - next[0]);
+    
+    var greatest = x > y ? x : y;
+    
+    var speedModifier = 0.1;
 
-});// end of doc ready function
+    var speed = Math.ceil(greatest/speedModifier);
+
+    return speed;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
